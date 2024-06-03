@@ -1,15 +1,12 @@
 import React from "react";
 import PlayCircleOutlineIcon from "@mui/icons-material/PlayCircleOutline";
 
-const VideoTitle = () => {
+const VideoTitle = ({title,desc}) => {
   return (
     <div className="absolute inset-0 flex flex-col items-start px-20 justify-center text-center text-white z-20">
-      <h1 className="text-5xl font-bold mb-4">Anish Wanare</h1>
-      <p className="text-2xl mb-20 max-w-6xl text-start">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quas
-        provident ad velit perferendis labore esse natus quidem debitis
-        explicabo. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-        Nam, possimus.
+      <h1 className="text-5xl font-bold mb-4">{title && title}</h1>
+      <p className="text-2xl mb-20 w-1/3 mt-5 text-start">
+        {desc && desc}
       </p>
       <div className="flex gap-5 items-center">
         <button
