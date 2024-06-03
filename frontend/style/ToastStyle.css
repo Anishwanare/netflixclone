@@ -1,0 +1,17 @@
+/* ToastStyles.css */
+.Toastify__toast-container {
+    width: 400px; /* Adjust this value to your desired width */
+}
+
+.Toastify__toast {
+    font-size: 1.5rem; /* Adjust this value to your desired font size */
+    width: 100%; /* Ensures the toast takes up the full width of the container */
+}
+
+.Toastify__toast-body {
+    font-size: 1.5rem; /* Adjust this value to your desired font size */
+}
+
+.Toastify__close-button {
+    font-size: 1.5rem; /* Adjust this value to your desired font size */
+}
